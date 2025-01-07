@@ -1,0 +1,1496 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&display=swap');
+/*fontes fodas
+font-family: 'Dancing Script', cursive;
+font-family: 'Sacramento', cursive;
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*#####CORPO#####*/
+.site{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.teste7{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Sacramento', cursive;
+    background: url(../img/moroccan-flower.png);
+}
+
+.fundoSobre{
+    animation: animacaoTeste 50s ease alternate infinite;
+    font-size: 16px;
+    font-family: 'Sacramento', cursive;
+    background: url(../img/fundoFundadora.png);
+}
+
+.fundoApp{
+    background: url(../img/fundoApp.jpg);
+    animation: animacaoTeste 50s ease alternate infinite;
+    font-size: 16px;
+    font-family: 'Sacramento', cursive;
+}
+
+.fundoContato{
+    background: url(../img/fundoContato.png);
+    animation: animacaoTeste 50s ease alternate infinite;
+    font-size: 16px;
+    font-family: 'Sacramento', cursive;
+}
+/*#####FIM CORPO#####*/
+
+@keyframes animacaoTeste{
+    from{
+        background-position: 0 50%;
+    }
+
+    to{
+        background-position: 100% 50%;
+    }
+}
+
+header{
+    position: relative;
+    z-index: 1;
+}
+
+/*#####TOPO#####*/
+.topoBotoes{
+    background:#bfa18f94;
+    border-bottom:solid #40211e;
+    border-width: 2px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.topoBotoes div img{
+    visibility: hidden;
+}
+
+.topoBotoes div nav ul img{
+    margin: 10px 0;
+}
+
+.topoBotoes div nav ul a img{
+    visibility: visible;
+}
+
+.topoBotoes div nav ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.topoBotoes div nav ul li a{
+    color: #f2f2f2;
+    border-bottom: solid thick #40211e;
+    border-top: solid thick #40211e;
+    opacity: 100%;
+    border-width: 2px;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+
+.topoBotoes div nav ul li a:hover{
+    color: #40211e;
+    border-color: #f2f2f2;
+}
+/*#####FIM TOPO#####*/
+
+/*#####BANNER#####*/
+.banner{
+    position:relative;
+    top:-112px;
+    z-index: 0;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner .slick-prev:before,
+.banner .slick-next:before{
+    font-family: 'slick';
+    font-size: 30px;
+    opacity: 70%;
+    color: #f2f2f2;
+}
+
+.banner .slick-prev{
+    left: 35px;
+    z-index: 9999;
+}
+
+.banner .slick-next{
+    right: 35px;
+}
+
+.banner .slick-dots{
+    bottom: 25px;
+}
+
+.banner .slick-dots li button::before{
+    font-size: 10px;
+    color: #f2f2f2;
+    opacity: 75%;
+}
+
+.banner .slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #f2f2f2;
+}
+/*#####FIM BANNER#####*/
+
+/*#####APP#####*/
+.app{
+    padding-top: 142px;
+    position: relative;
+    top: -126px;
+}
+
+.baixe{
+    justify-content: center!important;
+}
+
+.baixe img{
+    margin-right:0px!important ;
+}
+
+.seg{
+    position: relative;
+}
+.seg{
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.seg:hover{
+    visibility: visible;
+    opacity: 1;
+}
+
+.app h2{
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    top: -126px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+}
+
+
+.app div{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -52px;
+}
+
+.app div img{
+    margin-right: 0px;
+    visibility: visible!important;
+    opacity: none!important;
+    position:none!important;
+    top:none!important;
+    left:none!important;
+}
+
+.app div p{
+    background: #f2f2f2b3;
+    font-size: 2.3em;
+    color: #4e2c29;
+    text-align: center;
+    padding: 35px;
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.app2{
+    animation: animacaoTeste 25s ease alternate infinite;
+    padding-top: 142px;
+    position: relative;
+    top: 0px;
+    background: url(../img/fundoApp.jpg);
+}
+
+.app2 h2{
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    top: -126px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+}
+
+.app2 div{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -52px;
+}
+
+.app2 div div{
+    flex-direction: column;
+}
+
+.app2 div p{
+    background: #f2f2f2b3;
+    font-size: 2.3em;
+    color: #4e2c29;
+    text-align: center;
+    padding: 35px;
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+/*#####FIM APP#####*/
+
+/*#####DEPOIMENTOS#####*/
+.depoimentos{
+    padding: 50px 0;
+    display: flex;
+    background: #f2d4aea3;
+    border-top: solid #40211e;
+    border-bottom: solid #40211e;
+    border-width: 2px;
+    position: relative;
+    top: -70px;
+}
+
+.depoimentos div h2{
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.depoimentos div p{
+    background: #f2f2f2;
+    font-size: 2em;
+    border: solid #40211e;
+    padding: 40px;
+    color: #40211e;
+}
+
+.depoimentos article img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*#####DEPOIMENTOS#####*/
+
+/*#####PRODUTOS#####*/
+.bolos{
+    background: #a68585a3;
+    border-top: solid #40211e ;
+    border-width: 2px;
+}
+
+.bolos div h2{
+    text-align: center;
+    font-size: 6em;
+    color: #f2f2f2;
+    font-family: 'Dancing Script', cursive;
+    border-width: 2px;
+}
+
+.bolos div div{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.bolos div div div p{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin-top: 15px;
+}
+
+.bolos div div {
+    background: #f2f2f2;
+    border: solid #40211e;
+}
+
+.bolos div div div{
+    border: none!important; 
+}
+
+.bolos div div div img{
+    padding: 10px 0;
+}
+
+.size{
+    transition: transform 0.2s;
+}
+
+.size:hover{
+    transform: scale(1.2);
+}
+
+.linha1{
+    width: 300px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 430px;
+    margin-top: 23px;
+}
+
+.linha2{
+    width: 300px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 430px;
+    margin-bottom: 23px;
+}
+
+.bolosTitulo{
+    display: flex;
+    background: none!important;
+    border: none!important;
+    justify-content: space-around;
+    margin: 0 338px;
+}
+
+.doces{
+    background: #a68585a3;
+    border-bottom: solid #40211e ;
+    border-width: 2px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.doces div h2{
+    text-align: center;
+    font-size: 6em;
+    color: #f2f2f2;
+    font-family: 'Dancing Script', cursive;
+    border-width: 2px;
+}
+
+.doces div div{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.doces div div div p {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin-top: 15px;
+}
+
+.doces div div {
+    background: #f2f2f2;
+    border: solid #40211e;
+}
+
+.doces div div div{
+    border: none!important; 
+}
+
+.doces div div div img{
+    padding: 10px 0;
+}
+
+.produtos2{
+    top: -110px;
+    position: relative;
+    background-color: #f2f2f278;
+    border-top: solid 2px #40211e;
+    border-bottom: solid 2px #40211e;
+}
+
+.produtos2 h2{
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #734945;
+    padding-top: 20px;
+}
+
+.produtos2 div p{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    color: #a66851;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.produtos2 div div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.produtos2 div section{
+    background-color: #4e2c299d;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+
+.produtos2 div section p{
+    color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 0!important;
+    font-size: 2.5em;
+}
+
+.produtos2 div div img{
+    width: 35%;
+}
+/*#####FIM PRODUTOS#####*/
+
+/*#####PROMOÇÃO#####*/
+.promocao{
+    padding-top: 60px;
+    position:relative;
+}
+
+.promocao img{
+    width: 100%;
+}
+
+.promocao .slick-prev:before,
+.promocao .slick-next:before{
+    font-family: 'slick';
+    font-size: 40px;
+    opacity: 70%;
+    color: #f2f2f2;
+}
+
+.promocao .slick-prev{
+    left: 35px;
+    z-index: 9999;
+}
+
+.promocao .slick-next{
+    right: 35px;
+}
+
+.promocao .slick-dots{
+    bottom: 25px;
+}
+
+.promocao .slick-dots li button::before{
+    font-size: 15px;
+    color: #f2f2f2;
+    opacity: 75%;
+}
+
+.promocao .slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #f2f2f2;
+}
+/*#####FIM PROMOÇÃO#####*/
+
+/*#####SOBRE#####*/
+.sobre div p{
+    background: #a68585;
+    border: solid #734945;
+    border-width: 3px;
+    font-size: 2em;
+    margin: 6px;
+    padding: 20px 30px;
+    border-radius: 50px 30px 50px 15px ;
+    color: #f2f2f2;
+}
+
+.sobre div img{
+    padding-left: 115px;
+}
+
+.sobre{
+    padding-bottom: 50px;
+    position: relative;
+    top: -102px;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 4em;
+    color: #40211e;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    border-width: 2px;
+}
+
+.sobre div{
+    display: flex;
+}
+/*#####FIM SOBRE#####*/
+
+/*#####FUNDADORA#####*/
+.fundadora{
+    animation: animacaoTeste 25s ease alternate infinite;
+    background: url(../img/fundoFundadora.png);
+    padding-bottom: 50px;
+}
+
+.fundadora h2{
+    text-align: center;
+    font-size: 4em;
+    color: #40211e;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    border-width: 2px;
+}
+
+.fundadora div{
+    display: flex;
+}
+
+.fundadora div p{
+    background: #f2f2f2;
+    border: solid #40211e;
+    border-width: 3px;
+    font-size: 2em;
+    margin: 40px 40px 40px 40px;
+    padding: 20px 30px;
+    border-radius: 50px 30px 50px 15px ;
+}
+
+.fundadora2{
+    padding-bottom: 50px;
+}
+
+.fundadora2 h2{
+    text-align: center;
+    font-size: 4em;
+    color: #40211e;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    border-width: 2px;
+}
+
+.fundadora2 div{
+    display: flex;
+}
+
+.fundadora2 div p{
+    background: #f2f2f2;
+    border: solid #40211e;
+    border-width: 3px;
+    font-size: 2em;
+    margin: 40px 40px 40px 40px;
+    padding: 20px 30px;
+    border-radius: 50px 30px 50px 15px ;
+}
+/*#####FIM FUNDADORA#####*/
+
+/*#####RODAPÉ#####*/
+.rodape{
+    background: #734945;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.rodape div{
+    background: #f2f2f2;
+    border-radius: 30px;
+}
+
+.rodape div a img{
+    margin: 10px 0;
+}
+
+.rodape div ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 406px;
+}    
+
+.rodape div h2{
+    color: #40211e;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rodape2{
+    background: #734945;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.rodape2 div{
+    background: #f2f2f2;
+    border-radius: 30px;
+}
+
+.rodape2 div a img{
+    margin: 10px 0;
+}
+
+.rodape2 div ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 406px;
+}    
+
+.rodape2 div h2{
+    color: #40211e;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rodape2 div ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 406px;
+}
+
+
+.rodape2{
+    top: 130px;
+    position: relative;
+}
+
+
+.rodape2 div ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 406px;
+}
+
+.direitos{
+    background: #40211e!important;
+    text-align: center;
+}
+
+.direitos h2{
+    color: #f2f2f2;
+    padding: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6px;
+}
+
+.direitos2{
+    background: #40211e!important;
+    text-align: center;
+}
+
+.direitos2 h2{
+    color: #f2f2f2;
+    padding: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6px;
+}
+
+.direitos2{
+    top: 130px;
+    position: relative;
+}
+/*#####FIM RODAPÉ#####*/
+
+/*#####CONTATO#####*/
+.contato{
+    position:relative;
+    top:-112px;
+}
+
+.contato h2{
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #40211e;
+}
+
+.contato div{
+    flex-direction: row;
+}
+
+.contato div p{
+    font-size: 2.0em;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 30px;
+}
+
+.contato div img{
+    margin: 0 93px;
+    padding-top: 20px;
+}
+
+.contato div div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mapa h2{
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #40211e;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+/*#####FIM CONTATO#####*/
+
+/*#####EQUIPE#####*/
+.equipe div img{
+    padding-left: 115px;
+}
+
+.equipe{
+    padding-bottom: 0px;
+    top: -102px;
+}
+
+.equipe h2{
+    text-align: center;
+    font-size: 4em;
+    color: #40211e;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    border-width: 2px;
+}
+
+.equipe div{
+    display: flex;
+}
+
+.equipe div img{
+    margin: 0 0 50px 0;
+}
+
+.e_licakes{
+    background: #a6685178;
+    border-top: solid 2px #40211e;
+}
+
+.e_licakes h2{
+    color: #f2f2f2;
+}
+
+.e_licakes div p{
+    background: #f2f2f296;
+    font-size: 2em;
+    margin: 6px 0 50px 0;
+    padding: 20px 30px;
+    border-radius: 15px;
+    color: #40211e;
+}
+
+.e_system{
+    background: #f2f2f278;
+    border-bottom: solid 2px #40211e;
+}
+
+.e_system h2{
+    color: #a66851;
+}
+
+.e_system div img{
+    padding-left: 0;
+    padding-right: 115px;
+}
+
+.e_system div p{
+    background: #a66851ba;
+    font-size: 2em;
+    margin: 6px 0 50px 0;
+    padding: 20px 30px;
+    border-radius: 15px;
+    color: #f2f2f2;
+}
+/*#####FIM EQUIPE#####*/
+
+/*#####BTN_ANIM_APP#####*/
+#wrap {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.btn_index{
+    margin-left: 100px !important;
+    margin-top: 40px !important;
+}
+
+.btn-slide, .btn-slide2 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0 10px;
+    border-radius: 50px;
+    background: #fdfdfd;
+    border: 2px solid #40211e;
+    margin: 10px;
+    transition: .5s;
+    align-items: center !important;
+}
+
+.btn-slide2 {
+    border: 2px solid #efa666;
+}
+
+.btn-slide:hover {
+    background-color: #40211e;
+}
+
+.btn-slide2:hover {
+    background-color: #efa666;
+}
+
+.btn-slide:hover span.circle, .btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #40211e;
+}
+
+.btn-slide2:hover span.circle2 {
+    color: #efa666;
+}
+
+.btn-slide:hover span.title, .btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+
+.btn-slide:hover span.title-hover, .btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide span.circle, .btn-slide2 span.circle2 {
+    display: block;
+    background-color: #40211e;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.btn-slide2 span.circle2 {
+    background-color: #efa666;
+}
+
+.btn-slide span.title,
+  .btn-slide span.title-hover, .btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: bold;
+    color: #40211e;
+    transition: .5s;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    color: #efa666;
+    left: 80px;
+  }
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+}
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    color: #fff;
+}
+/*#####FIM BTN_ANIM_APP#####*/
+
+/*#####produtos#####*/
+.produtos{
+    background: #f2f2f278;
+    border-top: solid 2px #40211e;
+}
+
+.bolos_recheados h2{
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #734945;
+    padding-top: 20px;
+}
+
+.bolos_recheados section div h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    color: #734945;
+    padding: 0 20px;
+}
+
+.linha{
+    padding: 0 230px;
+}
+
+.linha3 {
+    width: 1200px;
+    border: 1px solid #734945;
+}
+
+.bolos_mousse{
+    background: #73494594;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.bolos_mousse img{
+    padding: 10px 42px;
+    width: 26%;
+}
+
+.bolos_mousse button img{
+    padding: 10px 42px;
+    width: 26%;
+}
+/*#####FIM produtos#####*/
+
+/*#####VIDEO_APP#####*/
+.videoApp img{
+    width: 50% !important;
+    padding: 50px 0;
+}
+
+.videoApp {
+    display: flex;
+    background: url(../img/fundoApp.jpg);
+    align-items: center;
+    flex-direction: column;
+    animation: animacaoTeste 25s ease alternate infinite;
+}
+/*#####FIM VIDEO_APP#####*/
+
+@media not all and (max-width:600px){
+    .abrir-menu, .fechar-menu{
+        display: none;
+    }
+}
+
+
+/*#####MOBILE ATÉ 600 PX#####*/
+@media(max-width:600px){
+    /*#####BANNER-600#####*/
+    .banner {
+        display: none;
+    }
+    /*#####FIM BANNER-600#####*/
+
+    /*#####TOPO BOTÕES#-600####*/
+    .topoBotoes{
+        background:#bfa18f94;
+        border-bottom:solid #40211e;
+        border-width: 2px;
+        position: absolute;
+    }
+
+    .topoBotoes div{
+        display: flex;
+    }
+
+    .topoBotoes div nav {
+        flex-direction: column;
+    }
+
+    .topoBotoes div nav ul{
+        flex-direction: column;
+    }
+
+    .topoBotoes nav ul li{
+        margin: 15px;
+    }
+    /*#####FIM TOPO_BOTÕES-600#####*/
+
+    /*#####MENU-600#####*/
+    .Menu{
+        background: #bfa18fbd;
+        padding: 1%;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+
+        margin: 0;
+        top: 0;
+        max-width: 350px;
+        width: 50%;
+
+        right: -350px;
+
+        transition: right 0.5s ease-out;
+    }  
+
+    .menu-ativo .Menu{
+        right: 0;
+    }
+
+    .menu-ativo .Menu{
+        right: 0;
+    }
+
+    .fechar-menu{
+        background: url(../img/close.png);
+        background-size: cover;
+        padding: 20px;
+        border: 0;
+        display: block;
+    }
+
+    .abrir-menu{
+        background: url(../img/btnMenu.png);
+        background-size: cover;
+        padding: 53px;
+        border: 0;
+        display: block;
+        margin-right: 0;
+        margin-left: 470px;
+    }
+    /*#####FIM MENU-600#####*/ 
+
+    /*#####DEPOIMENTOS-600#####*/
+    .depoimentos{
+        top: 130px;
+        position: relative;
+    }
+
+    .depoimentos article img {
+        display: none;
+    }
+    /*#####FIM_DEPOIMENTOS-600#####*/
+
+    /*#####PRODUTOS-600#####*/
+    .bolos{
+        top: 160px;
+        position: relative;
+    }
+
+    .doces{
+        top: 160px;
+        position: relative;
+    }
+
+    .linha1{
+        margin-left:167px !important;
+    }
+
+    .linha2{
+        margin-left: 167px !important;
+    }
+
+    .bolosIMG, .docesIMG {
+        flex-direction: column;
+        margin: 0 50px;
+    } 
+
+    .bolosTitulo{
+        margin: 0 50px;
+    }
+
+    .teste7 img{
+        display: none;
+    }
+
+    .produtos{
+        top: 106px !important;
+        position: relative !important;
+    }
+
+    .produtos2{
+        top: 106px !important;
+        position: relative !important;
+    }
+
+    .bolos_mousse{
+        margin-bottom: 10px;
+    }
+
+    .bolos_mousse img {
+        width: 18% !important;
+    }
+    /*#####FIM PRODUTOS-600#####*/
+
+    /*#####PROMO-600#####*/
+    .promocao{
+        top: 130px;
+        position: relative;
+    }
+
+    .promocao{
+        display: none;
+    }
+    /*#####FIM PROMO-600#####*/
+
+    /*#####FUNDADORA-600#####*/
+    .fundadora{
+        top: 130px;
+        position: relative;
+    }
+
+    .fundadora div {
+        display: grid;
+    }
+
+    .fundadora div img{
+        padding: 0 210px;
+        margin: 0 !important;
+    }
+
+    .fundadora div p{
+        width: 75%;
+    }
+
+    .fundadora2 div{
+        flex-direction: column;
+    }
+
+    .fundadora2 div img{
+        width: 30% !important;
+        padding-right: 210px !important;
+        padding-left: 210px !important;
+    }
+    /*#####FIM FUNDADORA-600#####*/
+
+    /*#####RODAPÉ-600#####*/
+    .rodape2{
+        top: 106px !important;
+        position: relative !important;
+    }
+
+    .direitos2{
+        top: 106px !important;
+        position: relative;
+    }
+
+    .rodape div ul {
+        padding: 0px 109px;
+    }
+
+    .rodape2 div ul {
+        padding: 0 100px;
+    }
+    /*#####FIM RODAPÉ-600#####*/
+
+    /*#####EQUIPE-600#####*/
+    .equipe{
+        top: 160px;
+    }
+
+    .equipe div img{
+        display: none;
+    }
+
+    .e_system h2{
+        padding-top: 25px;
+    }
+    /*#####FIM EQUIPE-600#####*/
+
+    /*#####SOBRE-600#####*/
+    .fundoSobre{
+        top: 130px;
+    }
+
+    .sobre{
+        top: 160px;
+    }
+
+    .sobre h2{
+        padding-top: 100px !important;
+    }
+
+    .sobre div img{
+        display: none;
+    }
+    /*#####FIM SOBRE-600#####*/
+
+    /*#####APP-600#####*/
+    .app div div{
+        flex-direction: column;
+    }
+
+    .app div div img{
+        width: 50%;
+        padding-left: 150px;
+    }
+
+    .baixe a img{
+        width: 75% !important;
+        padding-left: 35px;
+    }
+
+    .app2 div div{
+        width: 100%;
+    }
+    
+    /*#####FIM APP-600#####*/
+
+    /*#####CONTATO-600#####*/
+    .contato div div{
+        margin: 0 100px;
+    }
+
+    .contato div div img{
+        width: 20% !important;
+        margin: 0 70px;
+    }
+
+    .contato div div p{
+        font-size: 1.2em;
+        margin: 0 50px !important;
+    }
+
+    .tel{
+        padding-left: 50px !important;
+    }
+    
+    .whats{
+        padding-left: 74px !important;
+    }
+
+    .email{
+        padding-right: 4px;
+    }
+    /*#####FIM CONTATO-600#####*/
+}
+/*#####FIM MOBILE 600PX#####*/
+
+/*#####MOBILE ATÉ 900PX#####*/
+@media(max-width:900px){
+    /*#####BANNER-900#####*/
+    .banner {
+        display: none;
+    }
+    /*#####FIM BANNER-900#####*/
+
+    /*#####DEPOIMENTOS-900#####*/
+    .depoimentos{
+        top: 130px;
+        position: relative;
+    }
+
+    .depoimentos div p{
+        font-size: 1.7em;
+    }
+
+    .depoimentos article img{
+        padding-top: 220px;
+    }
+    /*#####FIM DEPOIMENTOS-900#####*/
+
+    /*#####BOTOES-900#####*/
+    .topoBotoes{
+        position: absolute;
+    }
+
+    .topoBotoes div nav {
+        flex-direction: column;
+    }
+    /*#####FIM BOTOES-900#####*/
+
+    /*#####PRODUTOS-900#####*/
+    .bolos{
+        top: 160px;
+        position: relative;
+    }
+
+    .bolos_mousse{
+        margin-bottom: 10px;
+    }
+
+    .bolos_mousse img {
+        width: 23%;
+    }
+
+    .doces{
+        top: 160px;
+        position: relative;
+    }
+
+    .linha1{
+        margin-left:287px;
+    }
+
+    .linha2{
+        margin-left: 287px;
+    }
+
+    .bolosTitulo{
+        margin: 0 190px;
+    }
+
+    .teste7 img{
+        display: none;
+    }
+
+    .produtos{
+        top: 131px;
+        position: relative;
+    }
+
+    .produtos2{
+        top: 131px;
+        position: relative;
+    }
+    /*#####FIM PRODUTOS-900#####*/
+    
+    /*#####PROMOÇÃO-900#####*/
+    .promocao{
+        top: 130px;
+        position: relative;
+        display: none;
+    }
+    /*#####FIM PROMOÇÃO-900#####*/
+
+    /*#####FUNDADORA-900#####*/
+    .fundadora{
+        top: 130px;
+        position: relative;
+    }
+
+    .fundadora div {
+        display: grid;
+    }
+
+    .fundadora div img{
+        margin: 0 366px;
+    }
+
+    .fundadora div p{
+        margin-bottom: 160px;
+    }
+
+    .fundadora2{
+        top: 130px;
+        z-index: 0;
+    }
+
+    .fundadora2 div{
+       flex-direction: column;
+    }
+
+    .fundadora2 div img{
+        width: 20%;
+        padding-left: 350px;
+    }
+    /*#####FIM FUNDADORA-900#####*/
+
+    /*#####RODAPÉ-900#####*/
+    .rodape{
+        top: 130px;
+        position: relative;
+    }
+
+    .rodape div ul {
+        padding: 0px 109px;
+    }
+
+    .rodape2 div ul {
+        padding: 0 250px !important;
+    }
+
+    .direitos{
+        top: 130px;
+        position: relative;
+    }
+
+    .direitos2{
+        top: 130px;
+        position: relative;
+    }
+    /*#####FIM RODAPÉ-900#####*/
+
+    /*#####SOBRE-900#####*/
+    .sobre{
+        padding-bottom: 110px;
+        top: 100px;
+    }
+
+    .sobre div{
+        flex-direction: column !important;
+    }
+
+    .sobre div img{
+        padding-left: 270px;
+        width: 40%;
+    }
+    /*#####FIM SOBRE-900#####*/
+
+    /*#####APP-900#####*/
+    .app{
+        top: 130px;
+    }
+
+    .app div img{
+        margin-right: 0;
+    }
+
+    .app2 div div{
+        width: 100%;
+    }
+
+    .videoApp {
+    padding-top: 150px;
+    }
+    /*#####FIM APP-900#####*/
+   
+    /*#####EQUIPE-900#####*/
+    .equipe div{
+        flex-direction: column;
+    }
+    
+    .equipe div img{
+        width: 40%;
+        padding: 0 270px;
+    }
+
+    .e_licakes{
+        padding-top: 200px;
+    }
+    /*#####FIM EQUIPE-900#####*/
+    
+    /*#####CONTATO-900#####*/
+    .contato{
+        top: 160px;
+    }
+
+    .contato div div img{
+        width: 10%;
+    }
+
+    .mapa h2{
+        padding-top: 30px;
+    }
+    /*#####FIM CONTATO-900#####*/
+}
+
+/*FIM MOBILE ATÉ 900PX*/
